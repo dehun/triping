@@ -7,7 +7,6 @@ lazy val tripingMaster = project.dependsOn(root)
 lazy val tripingSlave = project.dependsOn(root)
 
 
-
 scalaVersion := "2.11.7"
 
 import NativePackagerHelper._
@@ -22,5 +21,7 @@ mappings in Universal += {
 }
 
 libraryDependencies ++= Seq(
+  "com.typesafe.akka" %% "akka-remote" % "2.4.17",
+  "org.scalaz" %% "scalaz-core" % "7.2.10"
 )
 
