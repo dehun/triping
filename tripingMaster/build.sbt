@@ -11,7 +11,8 @@ libraryDependencies ++=
     "com.typesafe.akka" %% "akka-remote" % "2.4.17",
     "com.typesafe.akka" %% "akka-http-core" % "10.0.4",
     "com.typesafe.akka" %% "akka-http" % "10.0.4",
-    "org.scalaz" %% "scalaz-core" % "7.2.10")
+    "org.typelevel" %% "cats" % "0.9.0"
+    )
 
 import NativePackagerHelper._
 

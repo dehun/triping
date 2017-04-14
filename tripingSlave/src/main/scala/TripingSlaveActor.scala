@@ -15,6 +15,7 @@ import scala.util
 
 class TripingSlaveActor extends Actor {
   private val log = Logging(context.system, this)
+  private val myIp = context.system.settings.config.getString("triping.myIp")
   private val masterUri = context.system.settings.config.getString("triping.tripingMaster")
   implicit val timeout = Timeout(5 seconds)
 
@@ -23,7 +24,7 @@ class TripingSlaveActor extends Actor {
   def enslave():Unit = {
     val master:ActorRef = Await.result(context.actorSelection(masterUri).resolveOne, 5 seconds)
     context.watch(master)
-    master ! TripingMasterActor.Enslave()
+    master ! TripingMasterActor.Enslave(myIp)
   }
 
   override def receive: Receive = {
@@ -41,10 +42,10 @@ class TripingSlaveActor extends Actor {
     case TripingSlaveActor.Ping(host) =>
       log.info("ping requested")
       val asker = sender()
-      pingHost(host).onComplete({
-        case Success(res) => asker ! TripingSlaveActor.Pinged(res)
-        case Failure(ex) => asker ! TripingSlaveActor.Pinged(Left(ex.toString))
-      })
+      pingHost(host).onComplete(res => {
+          log.info(s"ping succeeded with $res")
+          asker ! TripingSlaveActor.Pinged(res.flatMap(identity))
+        })
 
     case Terminated(deadOne) =>
       log.warning("oh no! master lost! trying to become enslaved again")
@@ -52,17 +53,14 @@ class TripingSlaveActor extends Actor {
       self ! TripingSlaveActor.Enslave()
   }
 
-  def pingHost(host:String):Future[Either[String, Double]] = {
+  def pingHost(host:String):Future[Try[Double]] = {
     Future.apply({
       val r = "rtt min/avg/max/mdev = .+?/(.+?)/.+".r
       val out:String = s"ping -4 -c4 $host".!!
       Try({
         val r(avg) = out.split("\n").last
         avg.toDouble
-      }) match {
-        case Success(avg) => Right(avg)
-        case Failure(ex) => Left(ex.toString)
-      }
+      })
     })
   }
 
