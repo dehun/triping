@@ -22,6 +22,6 @@ mappings in Universal += {
 
 libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-remote" % "2.4.17",
-  "org.scalaz" %% "scalaz-core" % "7.2.10"
+  "org.scalatest" %% "scalatest" % "3.0.1" % "test"
 )
 
