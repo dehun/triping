@@ -21,17 +21,23 @@ object Triangulator {
     // first lets determine triangles ABC and XAY composition (do they intersect)
     val isXInsideBAC = BAX + XAC =~= BAC
     val isYInsideBAC = BAY + YAC =~= BAC
+
     val XAY:Double = {
       if (!isXInsideBAC && !isYInsideBAC) {
-        ???
-      } else if (isXInsideBAC && isYInsideBAC){
-        // solve case when both are inside
+        if ((BAC + YAC =~= BAY) && (BAC + XAC =~= BAX)) { // B, C, [Y | X]
+          if (BAY < BAX) { BAX - BAY } // B, C, Y, X
+          else { BAY - BAX } // B, C, X, Y
+        } else if ((BAC + BAY =~= YAC) && (BAC + BAX =~= XAC)) { // [Y | X], B, C
+          if (BAY < BAX) { XAC - YAC } // X, Y, B, C
+          else { YAC - XAC } // Y, X, B, C
+        } else { Math.min(BAX, XAC) + BAC + Math.min(BAY, YAC) }
+      } else if (isXInsideBAC && isYInsideBAC) { // solve case when both are inside
         if (BAX < BAY) { // X is closer to AB then Y, order is B, X, Y, C
           BAC - BAX - YAC
         } else { // Y is closer to AB then X, order is B, Y, X, C
           BAC - BAY - XAC
         }
-      } else {
+      } else { // one is inside, one outside
         if (isXInsideBAC) {
           if (BAY > YAC) { BAY - BAX } // B, X, C, Y
           else { YAC - XAC } // Y, B, X, C
