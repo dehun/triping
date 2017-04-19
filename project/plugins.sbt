@@ -17,5 +17,3 @@ addSbtPlugin("com.typesafe.sbt" % "sbt-mocha" % "1.1.0")
 
 addSbtPlugin("org.irundaia.sbt" % "sbt-sassify" % "1.4.6")
 
-addSbtPlugin("com.artima.supersafe" % "sbtplugin" % "1.1.2")
-

@@ -1,5 +1,6 @@
 case class DoubleWithExp(d:Double) {
   def **(x:Double):Double = Math.pow(d, x)
+  def =~=(r:Double):Boolean = Math.abs(d - r) < 0.1
 }
 
 object DoubleWithExp {
@@ -12,19 +13,36 @@ object Triangulator {
     val List(ax, bx, cx) = leftPings
     val List(ay, by, cy) = rightPings
     val List(ab, bc, ca) = slavesPings
+    val BAC = Math.acos((ab**2 + ca**2 - bc**2) / (2 * ab * ca))
+    val BAX = Math.acos((ab**2 + ax**2 - bx**2) / (2 * ab * ax))
+    val XAC = Math.acos((ax**2 + ca**2 - cx**2) / (2 * ax * ca))
+    val BAY = Math.acos((ab**2 + ay**2 - by**2) / (2 * ab * ay))
+    val YAC = Math.acos((ay**2 + ca**2 - cy**2) / (2 * ay * ca))
+    // first lets determine triangles ABC and XAY composition (do they intersect)
+    val isXInsideBAC = BAX + XAC =~= BAC
+    val isYInsideBAC = BAY + YAC =~= BAC
+    val XAY:Double = {
+      if (!isXInsideBAC && !isYInsideBAC) {
+        ???
+      } else if (isXInsideBAC && isYInsideBAC){
+        // solve case when both are inside
+        if (BAX < BAY) { // X is closer to AB then Y, order is B, X, Y, C
+          BAC - BAX - YAC
+        } else { // Y is closer to AB then X, order is B, Y, X, C
+          BAC - BAY - XAC
+        }
+      } else {
+        if (isXInsideBAC) {
+          if (BAY > YAC) { BAY - BAX } // B, X, C, Y
+          else { YAC - XAC } // Y, B, X, C
+        } else { // if (isYInsideBAC)
+          if (BAX > XAC) { BAX - BAY} // B, Y, C, X
+          else { XAC - YAC} // X, B, Y, C
+        }
+      }
+    }
 
-    val cosBAC = (ab**2 + ca**2 - bc**2) / (2 * ab * ca)
-    val BAC = Math.acos(cosBAC)
-    val cosBAX = (ab**2 + ax**2 - bx**2) / (2 * ab * ax)
-    val BAX = Math.acos(cosBAX)
-    val cosCAY = (ca**2 + ay**2 - cy**2) / (2 * ca * ay)
-    val CAY = Math.acos(cosCAY)
-    val cosXAC = (ax**2 + ca**2 - cx**2) / (2 * ax * ca)
-    val XAC = Math.acos(cosXAC)
-
-    val XAY = BAC - CAY + (if (BAC < XAC) XAC else (-XAC))
-    val cosXAY = Math.cos(XAY)
-    val xy = Math.sqrt(ax**2 + ay**2 - 2 * ax * ay * cosXAY)
+    val xy = Math.sqrt(ax**2 + ay**2 - 2 * ax * ay * Math.cos(XAY))
     xy
   }
 }
