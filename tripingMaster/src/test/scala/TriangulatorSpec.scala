@@ -56,12 +56,4 @@ class TriangulatorSpec extends FlatSpec with Matchers {
         List(5.1, 2.8, 2.3),
         List(3.3, 3.0, 3.4)) === 1.5 +- 0.25)
   }
-
-  it should "triangulate both points, outside, X shaped" in {
-    assert(
-      Triangulator.triangulate(
-        List(1.8, 3.0, 3.7),
-        List(2.1, 4.6, 3.3),
-        List(2.5, 2.1, 2.1)) === 3.1 +- 0.25)
-  }
 }

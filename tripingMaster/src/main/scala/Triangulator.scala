@@ -8,16 +8,21 @@ object DoubleWithExp {
 }
 
 object Triangulator {
+  private def normalize(cos:Double):Double = {
+    if (cos > 0.0) Math.min(cos, 1.0)
+    else Math.max(-1.0, cos)
+  }
+
   def triangulate(leftPings:List[Double], rightPings:List[Double], slavesPings:List[Double]):Double = {
     import DoubleWithExp._
     val List(ax, bx, cx) = leftPings
     val List(ay, by, cy) = rightPings
     val List(ab, bc, ca) = slavesPings
-    val BAC = Math.acos((ab**2 + ca**2 - bc**2) / (2 * ab * ca))
-    val BAX = Math.acos((ab**2 + ax**2 - bx**2) / (2 * ab * ax))
-    val XAC = Math.acos((ax**2 + ca**2 - cx**2) / (2 * ax * ca))
-    val BAY = Math.acos((ab**2 + ay**2 - by**2) / (2 * ab * ay))
-    val YAC = Math.acos((ay**2 + ca**2 - cy**2) / (2 * ay * ca))
+    val BAC = Math.acos(normalize((ab**2 + ca**2 - bc**2) / (2 * ab * ca)))
+    val BAX = Math.acos(normalize((ab**2 + ax**2 - bx**2) / (2 * ab * ax)))
+    val XAC = Math.acos(normalize((ax**2 + ca**2 - cx**2) / (2 * ax * ca)))
+    val BAY = Math.acos(normalize((ab**2 + ay**2 - by**2) / (2 * ab * ay)))
+    val YAC = Math.acos(normalize((ay**2 + ca**2 - cy**2) / (2 * ay * ca)))
     // first lets determine triangles ABC and XAY composition (do they intersect)
     val isXInsideBAC = BAX + XAC =~= BAC
     val isYInsideBAC = BAY + YAC =~= BAC
@@ -48,7 +53,9 @@ object Triangulator {
       }
     }
 
+    Console.println(s"ax=$ax ay=$ay XAY=${Math.toDegrees(XAY)}")
     val xy = Math.sqrt(ax**2 + ay**2 - 2 * ax * ay * Math.cos(XAY))
+    Console.println(s"xy=$xy")
     xy
   }
 }

@@ -1,4 +1,4 @@
-name := "play-scala"
+name := "tripingFront"
 
 version := "1.0-SNAPSHOT"
 

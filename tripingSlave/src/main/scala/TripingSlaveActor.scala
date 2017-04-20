@@ -35,7 +35,7 @@ class TripingSlaveActor extends Actor {
       context.become(active)
     case Terminated(deadOne) =>
       log.warning("oh no! master lost! trying to become enslaved again")
-      self ! TripingSlaveActor.Enslave()
+      context.system.scheduler.scheduleOnce(1 second, self, TripingSlaveActor.Enslave())
   }
 
   def active:Receive = {
@@ -43,7 +43,7 @@ class TripingSlaveActor extends Actor {
       log.info("ping requested")
       val asker = sender()
       pingHost(host).onComplete(res => {
-          log.info(s"ping succeeded with $res")
+          log.info(s"ping $host succeeded with $res")
           asker ! TripingSlaveActor.Pinged(res.flatMap(identity))
         })
 
