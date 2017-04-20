@@ -1,0 +1,561 @@
+Script started on Thu 20 Apr 2017 12:36:30 PM UTC
+]0;root@q3mm: ~/tripingroot@q3mm:~/triping# cat ips.txt | python triping_test.py
+-------------------------------------------------------------------------------
+       ip       |               triping                    |         ping      |
+45.79.189.87 | Triangulated(Success(85.6825094974246)) | 78.391
+84.200.93.128 | Triangulated(Success(7.04401341257384)) | 8.205
+45.32.153.115 | Triangulated(Success(22.983236965387672)) | 13.052
+164.132.164.200 | Triangulated(Success(13.800187454107373)) | 9.199
+108.61.171.41 | Triangulated(Success(22.760650265734707)) | 11.320
+Command 'ping -4 -c4 119.196.150.14' returned non-zero exit status 1
+119.196.150.14 | Triangulated(Failure(java.lang.RuntimeException: Nonzero exit value: 1)) | error
+104.129.31.142 | Triangulated(Success(96.27570089281221)) | 95.844
+108.61.167.96 | Triangulated(Success(12.678056299731189)) | 1.328
+84.200.93.156 | Triangulated(Success(3.814916637278892)) | 10.971
+217.76.183.88 | Triangulated(Success(89.8472465365841)) | 66.672
+108.61.171.41 | Triangulated(Success(21.014837339593598)) | 11.289
+196.41.98.78 | Triangulated(Success(132.03788794551448)) | 148.059
+45.76.23.226 | Triangulated(Success(105.56056651349373)) | 105.327
+92.222.137.157 | Triangulated(Success(14.804161375087942)) | 8.304
+104.219.168.187 | Triangulated(Success(126.74310689118872)) | 123.802
+45.33.29.148 | Triangulated(Success(123.33832576382467)) | 115.477
+45.79.7.228 | Triangulated(Success(123.53757489146383)) | 117.093
+188.166.164.211 | Triangulated(Success(22.11887499534582)) | 10.463
+85.10.201.6 | Triangulated(Success(3.9394210494070125)) | 10.600
+37.230.154.218 | Triangulated(Success(44.84620242747592)) | 40.316
+46.105.113.11 | Triangulated(Success(14.144013393436008)) | 7.875
+Command 'ping -4 -c4 78.70.35.23' returned non-zero exit status 1
+78.70.35.23 | Triangulated(Failure(java.lang.RuntimeException: Nonzero exit value: 1)) | error
+207.244.68.74 | Triangulated(Success(95.6177181196328)) | 89.180
+Command 'ping -4 -c4 71.90.206.162' returned non-zero exit status 1
+71.90.206.162 | Triangulated(Failure(java.lang.RuntimeException: Nonzero exit value: 1)) | error
+46.101.38.69 | Triangulated(Success(9.665569159773359)) | 9.574
+45.76.92.77 | Triangulated(Success(20.178929707918726)) | 15.278
+37.230.136.201 | Triangulated(Success(76.07420411760772)) | 77.576
+108.61.185.253 | Triangulated(Success(298.38158918703994)) | 305.430
+Command 'ping -4 -c4 34.251.165.212' returned non-zero exit status 1
+34.251.165.212 | Triangulated(Failure(java.lang.RuntimeException: Nonzero exit value: 1)) | error
+164.132.164.200 | Triangulated(Success(14.472989941005258)) | 9.232
+52.232.113.33 | Triangulated(Success(15.785839913796263)) | 3.200
+46.165.217.2 | Triangulated(Success(21.889013519169307)) | 12.455
+37.230.154.218 | Triangulated(Success(41.948126152565955)) | 41.305
+80.244.33.15 | Triangulated(Success(72.30114055855239)) | 67.892
+198.199.90.41 | Triangulated(Success(79.01317274258302)) | 77.832
+72.5.102.162 | Triangulated(Success(127.35102003382553)) | 125.598
+Command 'ping -4 -c4 74.15.56.101' returned non-zero exit status 1
+74.15.56.101 | Triangulated(Failure(java.lang.RuntimeException: Nonzero exit value: 1)) | error
+Command 'ping -4 -c4 75.172.111.218' returned non-zero exit status 1
+75.172.111.218 | Triangulated(Failure(java.lang.RuntimeException: Nonzero exit value: 1)) | error
+62.64.11.132 | Triangulated(Success(49.63156571867425)) | 45.543
+89.19.231.147 | Triangulated(Success(13.238059153497167)) | 15.910
+94.249.194.83 | Triangulated(Success(4.8864340277232285)) | 8.043
+188.227.19.98 | Triangulated(Success(34.18058522990904)) | 33.256
+190.54.29.189 | Triangulated(Success(215.47264772002546)) | 231.959
+52.50.119.76 | Triangulated(Success(1.1816928998096359)) | 17.477
+78.46.181.114 | Triangulated(Success(6.628425645394952)) | 12.624
+62.64.11.132 | Triangulated(Success(50.11476579465672)) | 45.493
+103.25.58.139 | Triangulated(Success(297.7703539667426)) | 299.937
+45.32.158.52 | Triangulated(Success(23.54297187697862)) | 13.247
+212.59.240.139 | Triangulated(Success(27.55040101962865)) | 24.974
+94.242.58.196 | Triangulated(Success(39.68628935346446)) | 34.566
+46.101.101.149 | Triangulated(Success(21.8960941372202)) | 12.068
+52.67.102.56 | Triangulated(Success(205.85237150347174)) | 202.752
+Command 'ping -4 -c4 184.73.144.64' returned non-zero exit status 1
+184.73.144.64 | Triangulated(Failure(java.lang.RuntimeException: Nonzero exit value: 1)) | error
+107.182.225.231 | Triangulated(Success(80.13882152179046)) | 82.995
+51.254.217.222 | Triangulated(Success(13.975478266963808)) | 8.142
+101.200.203.73 | Triangulated(Success(201.38106720322958)) | 174.760
+23.110.51.13 | Triangulated(Success(158.82511413776535)) | 154.415
+Command 'ping -4 -c4 78.70.35.23' returned non-zero exit status 1
+78.70.35.23 | Triangulated(Failure(java.lang.RuntimeException: Nonzero exit value: 1)) | error
+Command 'ping -4 -c4 217.42.164.118' returned non-zero exit status 1
+217.42.164.118 | Triangulated(Failure(java.lang.RuntimeException: Nonzero exit value: 1)) | error
+85.10.201.6 | Triangulated(Success(4.486271209137458)) | 10.675
+103.25.58.139 | Triangulated(Success(298.22849410504136)) | 299.968
+82.96.16.37 | Triangulated(Success(34.895927995443614)) | 23.134
+Command 'ping -4 -c4 78.70.35.23' returned non-zero exit status 1
+78.70.35.23 | Triangulated(Failure(java.lang.RuntimeException: Nonzero exit value: 1)) | error
+Command 'ping -4 -c4 78.70.35.23' returned non-zero exit status 1
+78.70.35.23 | Triangulated(Failure(java.lang.RuntimeException: Nonzero exit value: 1)) | error
+180.149.228.18 | Triangulated(Success(298.33845374238666)) | 302.368
+50.116.26.248 | Triangulated(Success(123.54682445453606)) | 110.345
+74.91.122.157 | Triangulated(Success(102.5498622679991)) | 96.135
+45.63.78.66 | Triangulated(Success(100.72460096795521)) | 103.439
+151.177.249.114 | Triangulated(Success(36.11252788638859)) | 28.602
+95.154.113.7 | Triangulated(Success(164.16253496521782)) | 174.451
+52.67.102.56 | Triangulated(Success(204.75422087229205)) | 202.715
+45.79.189.87 | Triangulated(Success(85.77164274119252)) | 78.255
+64.74.97.106 | Triangulated(Success(102.2910421727548)) | 95.863
+120.76.221.244 | Triangulated(Success(240.71766237459104)) | 216.503
+45.79.73.103 | Triangulated(Success(141.66314816364596)) | 149.871
+23.88.103.176 | Triangulated(Success(111.76438890072187)) | 109.447
+46.101.38.69 | Triangulated(Success(9.411243256953117)) | 9.522
+208.43.253.146 | Triangulated(Success(85.51880525603775)) | 80.731
+164.132.164.200 | Triangulated(Success(14.120004394127546)) | 9.285
+Command 'ping -4 -c4 185.158.113.222' returned non-zero exit status 1
+185.158.113.222 | Triangulated(Failure(java.lang.RuntimeException: Nonzero exit value: 1)) | error
+103.25.58.139 | Triangulated(Success(297.6170356738249)) | 300.196
+45.35.251.201 | Triangulated(Success(130.23690459915517)) | 119.178
+Command 'ping -4 -c4 78.70.35.23' returned non-zero exit status 1
+78.70.35.23 | Triangulated(Failure(java.lang.RuntimeException: Nonzero exit value: 1)) | error
+91.237.220.130 | Triangulated(Success(139.24042061206092)) | 124.864
+31.24.227.31 | Triangulated(Success(17.87235759297394)) | 1.325
+62.75.222.11 | Triangulated(Success(14.234192575662894)) | 15.198
+190.210.216.5 | Triangulated(Success(221.96147576119319)) | 225.376
+64.74.97.106 | Triangulated(Success(102.68063437902475)) | 95.814
+89.163.224.140 | Triangulated(Success(2.4373497452493056)) | 5.670
+74.91.124.150 | Triangulated(Success(102.27654430782411)) | 98.418
+5.135.66.234 | Triangulated(Success(15.35586146607818)) | 9.458
+95.85.13.194 | Triangulated(Success(12.545831093186113)) | 0.960
+62.64.11.132 | Triangulated(Success(50.08173016685046)) | 46.005
+23.110.51.13 | Triangulated(Success(159.2038671103292)) | 154.427
+84.200.38.233 | Triangulated(Success(3.6916433648573213)) | 7.554
+103.25.58.139 | Triangulated(Success(297.98190277188866)) | 300.100
+45.76.69.58 | Triangulated(Success(146.77700000000002)) | 144.258
+198.255.68.106 | Triangulated(Success(159.98428593395593)) | 158.696
+Command 'ping -4 -c4 85.224.12.249' returned non-zero exit status 1
+85.224.12.249 | Triangulated(Failure(java.lang.RuntimeException: Nonzero exit value: 1)) | error
+109.230.199.109 | Triangulated(Success(26.11251717084165)) | 22.651
+82.140.73.226 | Triangulated(Success(32.360461010454515)) | 32.834
+108.61.190.53 | Triangulated(Success(3.766027016041708)) | 12.286
+45.32.186.104 | Triangulated(Success(9.039623446598709)) | 1.299
+164.132.164.200 | Triangulated(Success(14.071733804807128)) | 9.115
+52.28.166.147 | Triangulated(Success(3.8851376085487743)) | 6.634
+120.76.221.244 | Triangulated(Success(236.3667832416869)) | 216.756
+190.54.29.189 | Triangulated(Success(228.11297900544702)) | 232.022
+45.33.110.238 | Triangulated(Success(141.53316866445218)) | 143.070
+207.244.68.74 | Triangulated(Success(95.62411938096108)) | 89.786
+107.185.55.183 | Triangulated(Success(165.83882175685417)) | 155.352
+104.223.48.163 | Triangulated(Success(145.278)) | 151.181
+104.153.108.163 | Triangulated(Success(102.89431933740816)) | 97.707
+Command 'ping -4 -c4 185.158.113.222' returned non-zero exit status 1
+185.158.113.222 | Triangulated(Failure(java.lang.RuntimeException: Nonzero exit value: 1)) | error
+Command 'ping -4 -c4 119.196.150.14' returned non-zero exit status 1
+119.196.150.14 | Triangulated(Failure(java.lang.RuntimeException: Nonzero exit value: 1)) | error
+196.34.15.23 | Triangulated(Success(141.93762385433917)) | 172.513
+103.25.58.139 | Triangulated(Success(297.47796903936)) | 300.661
+45.33.20.89 | Triangulated(Success(123.12173143326164)) | 116.776
+164.132.164.200 | Triangulated(Success(14.354183327591866)) | 9.167
+92.222.137.157 | Triangulated(Success(14.10130348349578)) | 8.199
+178.162.221.179 | Triangulated(Success(17.540197371172166)) | 12.437
+62.64.11.132 | Triangulated(Success(50.471245497417314)) | 45.588
+160.16.110.95 | Triangulated(Success(226.5995468922006)) | 253.476
+14.1.30.56 | Triangulated(Success(102.31188332703105)) | 100.590
+5.189.135.71 | Triangulated(Success(15.303176153335777)) | 16.979
+Command 'ping -4 -c4 109.226.36.132' returned non-zero exit status 1
+109.226.36.132 | Triangulated(Failure(java.lang.RuntimeException: Nonzero exit value: 1)) | error
+45.79.189.87 | Triangulated(Success(86.16801337200181)) | 78.260
+207.198.115.61 | Triangulated(Success(90.6887605967266)) | 78.036
+104.129.31.142 | Triangulated(Success(100.66670434131518)) | 95.599
+216.52.148.81 | Triangulated(Success(102.25438616916767)) | 97.523
+Command 'ping -4 -c4 75.172.111.218' returned non-zero exit status 1
+75.172.111.218 | Triangulated(Failure(java.lang.RuntimeException: Nonzero exit value: 1)) | error
+82.146.32.121 | Triangulated(Success(51.55935266228972)) | 40.580
+196.34.15.23 | Triangulated(Success(140.5571485717816)) | 172.700
+120.76.221.244 | Triangulated(Success(230.4859151038883)) | 216.115
+Command 'ping -4 -c4 185.158.113.222' returned non-zero exit status 1
+185.158.113.222 | Triangulated(Failure(java.lang.RuntimeException: Nonzero exit value: 1)) | error
+160.16.110.95 | Triangulated(Success(226.9294152491677)) | 253.967
+92.222.137.157 | Triangulated(Success(14.787821560228577)) | 8.247
+93.186.205.40 | Triangulated(Success(13.440887516684846)) | 4.795
+178.63.68.142 | Triangulated(Success(6.3187051477083305)) | 12.045
+91.196.51.176 | Triangulated(Success(25.95912332090586)) | 16.761
+109.230.199.109 | Triangulated(Success(28.845232405454013)) | 22.748
+92.222.9.25 | Triangulated(Success(15.193105576039347)) | 17.753
+46.165.217.2 | Triangulated(Success(19.01587286119244)) | 12.480
+46.101.192.87 | Triangulated(Success(19.224693717927273)) | 10.293
+107.182.225.231 | Triangulated(Success(79.57855493328371)) | 82.811
+204.14.154.126 | Triangulated(Success(106.41235240725042)) | 100.640
+78.46.242.65 | Triangulated(Success(6.895725878104701)) | 12.348
+Command 'ping -4 -c4 86.193.95.75' returned non-zero exit status 1
+86.193.95.75 | Triangulated(Failure(java.lang.RuntimeException: Nonzero exit value: 1)) | error
+84.200.93.143 | Triangulated(Success(3.4066418874377984)) | 11.120
+207.244.75.18 | Triangulated(Success(94.46453215444467)) | 89.474
+217.182.70.159 | Triangulated(Success(14.921067763569871)) | 15.736
+37.230.154.218 | Triangulated(Success(43.42406427061003)) | 41.200
+221.121.157.20 | Triangulated(Success(311.6964251107182)) | 315.472
+62.64.11.132 | Triangulated(Success(50.12174286844676)) | 45.672
+62.64.11.132 | Triangulated(Success(50.443042153967795)) | 45.805
+185.83.217.253 | Triangulated(Success(10.727501468897922)) | 1.828
+101.200.203.73 | Triangulated(Success(190.23170480316912)) | 160.295
+95.154.113.7 | Triangulated(Success(163.9458713350735)) | 174.636
+201.235.24.233 | Triangulated(Success(236.3011839427049)) | 238.354
+107.170.98.153 | Triangulated(Success(82.99001167890067)) | 76.671
+Command 'ping -4 -c4 45.35.65.78' returned non-zero exit status 1
+45.35.65.78 | Triangulated(Failure(java.lang.RuntimeException: Nonzero exit value: 1)) | error
+95.154.113.7 | Triangulated(Success(167.2235934839997)) | 174.075
+108.61.185.96 | Triangulated(Success(314.2369034746373)) | 317.135
+84.52.103.235 | Triangulated(Success(37.181580813104446)) | 37.712
+95.213.135.218 | Triangulated(Success(46.30700000529155)) | 45.135
+74.91.124.169 | Triangulated(Success(102.41136282029764)) | 97.288
+74.91.124.169 | Triangulated(Success(101.021318592208)) | 97.268
+46.101.38.69 | Triangulated(Success(9.619361370967265)) | 9.476
+138.201.17.195 | Triangulated(Success(6.381875508493211)) | 12.472
+84.52.103.235 | Triangulated(Success(37.21435455846595)) | 37.933
+123.206.89.163 | Triangulated(Success(191.16785694420315)) | 178.154
+103.25.58.139 | Triangulated(Success(297.7941813580479)) | 300.454
+198.255.68.106 | Triangulated(Success(161.46769460414566)) | 158.951
+196.34.92.59 | Triangulated(Success(175.7009697006657)) | 171.039
+31.24.227.31 | Triangulated(Success(17.95910435676482)) | 1.445
+Command 'ping -4 -c4 81.164.46.70' returned non-zero exit status 1
+81.164.46.70 | Triangulated(Failure(java.lang.RuntimeException: Nonzero exit value: 1)) | error
+Command 'ping -4 -c4 52.57.10.22' returned non-zero exit status 1
+52.57.10.22 | Triangulated(Failure(java.lang.RuntimeException: Nonzero exit value: 1)) | error
+Command 'ping -4 -c4 151.177.30.157' returned non-zero exit status 1
+151.177.30.157 | Triangulated(Failure(java.lang.RuntimeException: Nonzero exit value: 1)) | error
+93.191.22.218 | Triangulated(Success(62.4522745473731)) | 51.962
+196.34.15.23 | Triangulated(Success(139.99034154404228)) | 172.891
+103.25.58.139 | Triangulated(Success(297.85412496845754)) | 300.098
+207.244.68.74 | Triangulated(Success(95.90842058003425)) | 89.310
+23.227.167.43 | Triangulated(Success(121.75738841301386)) | 120.471
+188.226.186.88 | Triangulated(Success(20.603056427319157)) | 3.518
+84.200.93.128 | Triangulated(Success(7.242094292437285)) | 8.074
+185.46.21.218 | Triangulated(Success(34.03859892717904)) | 32.626
+198.255.68.106 | Triangulated(Success(159.98343714216463)) | 159.531
+46.165.217.2 | Triangulated(Success(19.2149824123559)) | 12.705
+178.217.186.55 | Triangulated(Success(30.699089278113757)) | 23.278
+103.231.252.42 | Triangulated(Success(297.47049717853986)) | 309.663
+123.206.89.163 | Triangulated(Success(193.85953690727538)) | 177.289
+107.191.49.94 | Triangulated(Success(103.78456640583573)) | 99.951
+Command 'ping -4 -c4 75.172.111.218' returned non-zero exit status 1
+75.172.111.218 | Triangulated(Failure(java.lang.RuntimeException: Nonzero exit value: 1)) | error
+84.200.93.225 | Triangulated(Success(3.9207803585275935)) | 7.356
+37.230.154.218 | Triangulated(Success(43.527586540180955)) | 40.854
+180.149.228.18 | Triangulated(Success(298.84027809247385)) | 302.405
+45.79.189.87 | Triangulated(Success(86.2821881177876)) | 78.645
+70.42.74.83 | Triangulated(Success(78.99610658296349)) | 79.573
+23.88.103.176 | Triangulated(Success(111.57151503808583)) | 109.647
+212.83.153.121 | Triangulated(Success(1.7239174638219117)) | 10.640
+151.80.116.149 | Triangulated(Success(14.833907951377423)) | 7.995
+180.149.228.18 | Triangulated(Success(298.2399174064803)) | 302.841
+Command 'ping -4 -c4 5.8.205.73' returned non-zero exit status 1
+5.8.205.73 | Triangulated(Failure(java.lang.RuntimeException: Nonzero exit value: 1)) | error
+45.79.220.195 | Triangulated(Success(102.27367634671113)) | 99.597
+45.32.187.38 | Triangulated(Success(13.929934076233879)) | 1.286
+64.74.97.106 | Triangulated(Success(102.73564755215604)) | 96.152
+178.162.221.179 | Triangulated(Success(20.88017072414916)) | 12.282
+Command 'ping -4 -c4 52.57.30.226' returned non-zero exit status 1
+52.57.30.226 | Triangulated(Failure(java.lang.RuntimeException: Nonzero exit value: 1)) | error
+103.25.58.139 | Triangulated(Success(298.0679909567875)) | 300.490
+Command 'ping -4 -c4 71.90.206.162' returned non-zero exit status 1
+71.90.206.162 | Triangulated(Failure(java.lang.RuntimeException: Nonzero exit value: 1)) | error
+94.249.194.153 | Triangulated(Success(6.009611159666491)) | 7.908
+196.34.92.59 | Triangulated(Success(175.22017108720172)) | 173.093
+103.25.58.139 | Triangulated(Success(297.92475799143415)) | 300.137
+45.33.110.238 | Triangulated(Success(141.47691926064405)) | 143.137
+79.137.83.157 | Triangulated(Success(15.803398841520663)) | 17.330
+84.200.93.128 | Triangulated(Success(7.259732900751911)) | 8.286
+94.249.194.153 | Triangulated(Success(7.198006493269531)) | 7.812
+Command 'ping -4 -c4 178.132.76.38' returned non-zero exit status 1
+178.132.76.38 | Triangulated(Failure(java.lang.RuntimeException: Nonzero exit value: 1)) | error
+167.114.208.238 | Triangulated(Success(93.03188839359498)) | 86.835
+51.254.217.222 | Triangulated(Success(15.071099223462024)) | 7.959
+84.200.226.9 | Triangulated(Success(16.329648510427415)) | 8.032
+45.76.92.77 | Triangulated(Success(6.849086190123161)) | 15.546
+176.9.36.204 | Triangulated(Success(7.354912804730948)) | 12.100
+37.230.154.218 | Triangulated(Success(42.47176049777011)) | 40.280
+80.244.33.15 | Triangulated(Success(75.05139524951802)) | 67.832
+120.76.221.244 | Triangulated(Success(244.18172302921195)) | 216.421
+Command 'ping -4 -c4 71.90.206.162' returned non-zero exit status 1
+71.90.206.162 | Triangulated(Failure(java.lang.RuntimeException: Nonzero exit value: 1)) | error
+216.52.148.81 | Triangulated(Success(102.37168328736264)) | 97.591
+195.178.115.42 | Triangulated(Success(40.53609323656434)) | 30.057
+123.206.89.163 | Triangulated(Success(190.47651608203577)) | 193.516
+31.24.224.155 | Triangulated(Success(12.235081291659256)) | 7.152
+164.132.164.200 | Triangulated(Success(14.657540288050582)) | 9.310
+51.254.217.222 | Triangulated(Success(14.330028319239183)) | 7.981
+83.220.168.194 | Triangulated(Success(58.65297492767426)) | 42.964
+80.244.33.15 | Triangulated(Success(72.5263194103893)) | 68.038
+Command 'ping -4 -c4 119.196.150.14' returned non-zero exit status 1
+119.196.150.14 | Triangulated(Failure(java.lang.RuntimeException: Nonzero exit value: 1)) | error
+216.52.148.81 | Triangulated(Success(102.6842348924241)) | 97.890
+151.177.249.114 | Triangulated(Success(35.82930163104926)) | 28.520
+104.128.59.121 | Triangulated(Success(102.75003750830513)) | 99.029
+103.231.252.42 | Triangulated(Success(296.7078729026279)) | 309.747
+Command 'ping -4 -c4 5.8.205.73' returned non-zero exit status 1
+5.8.205.73 | Triangulated(Failure(java.lang.RuntimeException: Nonzero exit value: 1)) | error
+72.14.186.67 | Triangulated(Success(123.49811458013303)) | 117.051
+84.200.38.142 | Triangulated(Success(6.781306099001432)) | 9.308
+104.193.225.145 | Triangulated(Success(122.90554056468814)) | 113.963
+192.71.144.237 | Triangulated(Success(25.95337106838745)) | 22.527
+Command 'ping -4 -c4 217.42.164.118' returned non-zero exit status 1
+217.42.164.118 | Triangulated(Failure(java.lang.RuntimeException: Nonzero exit value: 1)) | error
+77.79.248.162 | Triangulated(Success(24.458833263846106)) | 23.498
+45.79.7.228 | Triangulated(Success(123.80008250386715)) | 117.491
+216.52.148.131 | Triangulated(Success(103.76434850576986)) | 97.255
+89.19.231.147 | Triangulated(Success(14.37447293874581)) | 15.995
+Command 'ping -4 -c4 52.57.30.226' returned non-zero exit status 1
+52.57.30.226 | Triangulated(Failure(java.lang.RuntimeException: Nonzero exit value: 1)) | error
+213.136.94.235 | Triangulated(Success(8.974973120223176)) | 15.050
+195.178.115.42 | Triangulated(Success(44.1659768790742)) | 29.752
+91.196.51.176 | Triangulated(Success(25.268793111244474)) | 16.880
+Command 'ping -4 -c4 71.90.206.162' returned non-zero exit status 1
+71.90.206.162 | Triangulated(Failure(java.lang.RuntimeException: Nonzero exit value: 1)) | error
+188.166.164.211 | Triangulated(Success(22.15201797095952)) | 10.591
+128.127.104.35 | Triangulated(Success(24.394923973562598)) | 22.707
+101.200.203.73 | Triangulated(Success(189.73495953443418)) | 181.905
+198.255.68.106 | Triangulated(Success(160.3058493645277)) | 158.656
+160.16.110.95 | Triangulated(Success(228.82963175855406)) | 253.631
+190.54.29.189 | Triangulated(Success(222.18879602027246)) | 234.888
+68.235.47.220 | Triangulated(Success(110.48420329146202)) | 102.803
+5.135.66.234 | Triangulated(Success(15.236089416738393)) | 11.225
+79.133.37.82 | Triangulated(Success(17.678133987539322)) | 9.716
+103.25.58.139 | Triangulated(Success(300.8078564055455)) | 302.606
+45.79.100.154 | Triangulated(Success(141.43232440011792)) | 145.576
+31.186.251.139 | Triangulated(Success(13.114682523533961)) | 15.064
+196.34.92.59 | Triangulated(Success(176.07618123919107)) | 171.892
+64.74.97.106 | Triangulated(Success(104.44221938838314)) | 96.091
+84.200.93.128 | Triangulated(Success(7.098849329599426)) | 8.028
+91.196.253.65 | Triangulated(Success(34.254406673142384)) | 38.431
+82.146.32.121 | Triangulated(Success(53.98561502931633)) | 41.934
+207.244.75.18 | Triangulated(Success(96.53511433959204)) | 89.283
+108.61.185.253 | Triangulated(Success(296.2710572896502)) | 303.019
+198.245.61.68 | Triangulated(Success(89.74998498160261)) | 85.509
+84.200.38.147 | Triangulated(Success(10.10728147944458)) | 7.744
+Command 'ping -4 -c4 85.229.144.111' returned non-zero exit status 1
+85.229.144.111 | Triangulated(Failure(java.lang.RuntimeException: Nonzero exit value: 1)) | error
+Command 'ping -4 -c4 98.236.179.238' returned non-zero exit status 1
+98.236.179.238 | Triangulated(Failure(java.lang.RuntimeException: Nonzero exit value: 1)) | error
+104.37.72.68 | Triangulated(Success(156.97637295109718)) | 154.673
+52.232.113.33 | Triangulated(Success(19.86172935820866)) | 3.555
+52.28.166.147 | Triangulated(Success(2.471897478750009)) | 6.845
+217.182.70.159 | Triangulated(Success(14.648671356446721)) | 16.210
+78.46.150.90 | Triangulated(Success(7.937506510935907)) | 13.144
+82.96.16.37 | Triangulated(Success(36.176099074617625)) | 24.004
+45.32.158.52 | Triangulated(Success(23.466503910445017)) | 13.227
+52.232.113.33 | Triangulated(Success(20.17909266904088)) | 3.309
+84.200.93.156 | Triangulated(Success(4.64492664065228)) | 10.927
+94.249.254.37 | Triangulated(Success(5.147648417551798)) | 10.863
+93.191.22.218 | Triangulated(Success(58.10632114733978)) | 51.918
+52.67.102.56 | Triangulated(Success(204.71099602547935)) | 202.723
+74.91.122.157 | Triangulated(Success(102.4599549038162)) | 95.819
+45.79.208.103 | Triangulated(Success(104.14437198063852)) | 103.749
+180.149.228.18 | Triangulated(Success(299.2525125598018)) | 302.492
+108.61.190.53 | Triangulated(Success(17.81986261527634)) | 11.267
+207.154.197.115 | Triangulated(Success(20.298966777384717)) | 10.702
+176.9.36.204 | Triangulated(Success(7.428681278744945)) | 12.235
+190.54.29.189 | Triangulated(Success(219.58024828598494)) | 251.432
+52.67.102.56 | Triangulated(Success(205.00629550481054)) | 202.911
+70.32.24.223 | Triangulated(Success(98.28996483091971)) | 95.823
+Command 'ping -4 -c4 119.196.150.14' returned non-zero exit status 1
+119.196.150.14 | Triangulated(Failure(java.lang.RuntimeException: Nonzero exit value: 1)) | error
+Command 'ping -4 -c4 217.42.164.118' returned non-zero exit status 1
+217.42.164.118 | Triangulated(Failure(java.lang.RuntimeException: Nonzero exit value: 1)) | error
+79.136.72.142 | Triangulated(Success(39.07499199768815)) | 33.417
+Command 'ping -4 -c4 118.157.83.117' returned non-zero exit status 1
+118.157.83.117 | Triangulated(Failure(java.lang.RuntimeException: Nonzero exit value: 1)) | error
+190.210.216.5 | Triangulated(Success(222.50785842364093)) | 227.101
+77.79.248.162 | Triangulated(Success(23.28965135531591)) | 23.596
+63.251.227.87 | Triangulated(Success(116.87695830958224)) | 121.607
+74.91.115.206 | Triangulated(Success(102.69808679475568)) | 99.833
+Command 'ping -4 -c4 161.57.3.132' returned non-zero exit status 1
+161.57.3.132 | Triangulated(Failure(java.lang.RuntimeException: Nonzero exit value: 1)) | error
+95.85.13.194 | Triangulated(Success(12.396922241726555)) | 1.008
+5.199.140.91 | Triangulated(Success(1.3440756868983852)) | 5.164
+45.76.23.226 | Triangulated(Success(105.17035567474535)) | 108.029
+Command 'ping -4 -c4 94.244.60.171' returned non-zero exit status 1
+94.244.60.171 | Triangulated(Failure(java.lang.RuntimeException: Nonzero exit value: 1)) | error
+45.79.73.103 | Triangulated(Success(141.85352215272547)) | 150.806
+72.14.186.67 | Triangulated(Success(123.31003708391123)) | 117.054
+107.191.49.94 | Triangulated(Success(102.2399785960608)) | 99.951
+Command 'ping -4 -c4 46.59.108.220' returned non-zero exit status 1
+46.59.108.220 | Triangulated(Failure(java.lang.RuntimeException: Nonzero exit value: 1)) | error
+183.82.0.121 | Triangulated(Success(145.98326712752467)) | 148.285
+190.54.29.189 | Triangulated(Success(215.55131417536467)) | 236.935
+45.33.20.89 | Triangulated(Success(123.37452750429861)) | 117.642
+164.132.164.200 | Triangulated(Success(14.107191650828979)) | 9.312
+188.166.164.211 | Triangulated(Success(23.7719300214151)) | 10.282
+178.254.7.216 | Triangulated(Success(18.530273878960625)) | 7.503
+84.183.238.63 | Triangulated(Success(35.53441230325472)) | 37.885
+98.204.83.19 | Triangulated(Success(99.43564269530515)) | 93.162
+31.24.227.31 | Triangulated(Success(18.251795938599574)) | 2.402
+83.220.168.194 | Triangulated(Success(59.243464411582714)) | 43.111
+198.255.68.106 | Triangulated(Success(159.64305077859396)) | 158.918
+196.34.15.23 | Triangulated(Success(139.8031691666193)) | 172.718
+104.219.168.187 | Triangulated(Success(126.96724550632788)) | 123.917
+68.235.47.220 | Triangulated(Success(110.21615009513798)) | 102.324
+31.24.227.31 | Triangulated(Success(17.894642809302844)) | 1.302
+81.4.108.190 | Triangulated(Success(3.2528991073241116)) | 2.657
+37.230.154.218 | Triangulated(Success(42.94452151473188)) | 40.145
+72.5.102.162 | Triangulated(Success(127.71761717569511)) | 125.769
+95.85.13.194 | Triangulated(Success(12.662221871278357)) | 0.772
+45.32.153.115 | Triangulated(Success(21.08518780545483)) | 13.041
+37.221.209.129 | Triangulated(Success(23.59458891006678)) | 25.876
+74.91.115.206 | Triangulated(Success(102.69701565084577)) | 99.767
+84.200.93.223 | Triangulated(Success(6.907561224798329)) | 11.265
+85.10.201.6 | Triangulated(Success(4.4817765150070255)) | 10.582
+62.64.11.132 | Triangulated(Success(49.567365074783055)) | 45.985
+37.230.154.218 | Triangulated(Success(41.93241064871643)) | 40.101
+108.61.190.53 | Triangulated(Success(2.956109705101735)) | 11.452
+Command 'ping -4 -c4 217.42.164.118' returned non-zero exit status 1
+217.42.164.118 | Triangulated(Failure(java.lang.RuntimeException: Nonzero exit value: 1)) | error
+85.10.201.6 | Triangulated(Success(4.585638584473626)) | 10.607
+46.29.19.124 | Triangulated(Success(36.09152172628659)) | 29.254
+84.200.38.147 | Triangulated(Success(7.264607148757508)) | 7.510
+Command 'ping -4 -c4 52.57.30.226' returned non-zero exit status 1
+52.57.30.226 | Triangulated(Failure(java.lang.RuntimeException: Nonzero exit value: 1)) | error
+84.52.103.235 | Triangulated(Success(37.098586166928236)) | 37.455
+95.46.44.52 | Triangulated(Success(33.382612108903935)) | 33.441
+84.52.103.235 | Triangulated(Success(37.07759842337221)) | 37.347
+212.158.174.137 | Triangulated(Success(45.367229745842025)) | 41.473
+88.16.220.185 | Triangulated(Success(29.340556917678537)) | 40.587
+84.200.38.233 | Triangulated(Success(3.2334400979238302)) | 7.538
+52.28.166.147 | Triangulated(Success(3.016217751455581)) | 6.660
+87.249.207.170 | Triangulated(Success(73.60506538697102)) | 65.804
+45.76.95.224 | Triangulated(Success(22.285328292282305)) | 13.177
+194.28.50.62 | Triangulated(Success(40.57378956919108)) | 41.841
+84.52.103.235 | Triangulated(Success(39.21463075298769)) | 40.189
+95.154.113.7 | Triangulated(Success(163.9421747793245)) | 169.344
+Command 'ping -4 -c4 71.90.206.162' returned non-zero exit status 1
+71.90.206.162 | Triangulated(Failure(java.lang.RuntimeException: Nonzero exit value: 1)) | error
+77.79.248.162 | Triangulated(Success(23.8137144861523)) | 23.589
+50.116.59.93 | Triangulated(Success(85.44589532796857)) | 76.038
+188.68.51.144 | Triangulated(Success(16.33442716881846)) | 11.977
+89.19.231.147 | Triangulated(Success(12.516994100873072)) | 16.087
+103.25.58.139 | Triangulated(Success(297.51487571565195)) | 299.926
+45.33.29.148 | Triangulated(Success(123.01884341945127)) | 116.615
+Command 'ping -4 -c4 71.90.206.162' returned non-zero exit status 1
+71.90.206.162 | Triangulated(Failure(java.lang.RuntimeException: Nonzero exit value: 1)) | error
+104.197.142.106 | Triangulated(Success(110.14827599183398)) | 106.581
+199.167.19.34 | Triangulated(Success(152.6403440749095)) | 150.337
+46.101.38.69 | Triangulated(Success(9.748542495462067)) | 9.876
+185.162.248.131 | Triangulated(Success(16.675307405576916)) | 10.921
+185.44.104.151 | Triangulated(Success(18.417145558020273)) | 7.237
+45.32.153.115 | Triangulated(Success(22.121213624013382)) | 13.130
+84.52.103.235 | Triangulated(Success(36.744979789273074)) | 37.386
+23.110.51.13 | Triangulated(Success(158.5045927270657)) | 154.595
+103.25.58.139 | Triangulated(Success(297.5210985016521)) | 302.150
+160.16.110.95 | Triangulated(Success(227.81771411238537)) | 253.676
+45.79.100.154 | Triangulated(Success(141.1086762975728)) | 143.199
+107.182.225.231 | Triangulated(Success(79.59430608101263)) | 82.718
+198.255.68.106 | Triangulated(Success(159.65993041470955)) | 158.780
+5.45.78.5 | Triangulated(Success(9.0637704640136)) | 2.409
+95.46.44.52 | Triangulated(Success(33.17307543754666)) | 32.428
+91.242.161.24 | Triangulated(Success(50.85006938174894)) | 44.411
+84.200.93.225 | Triangulated(Success(2.573020916959337)) | 8.390
+31.186.250.169 | Triangulated(Success(8.183982100064098)) | 15.193
+45.32.153.115 | Triangulated(Success(22.272826942640066)) | 13.177
+78.47.83.4 | Triangulated(Success(9.166238315327698)) | 12.905
+37.230.154.218 | Triangulated(Success(43.46150009088162)) | 40.118
+190.54.29.189 | Triangulated(Success(216.23345639117474)) | 237.367
+46.4.85.103 | Triangulated(Success(5.667755480668777)) | 12.058
+84.52.103.235 | Triangulated(Success(36.71947850853697)) | 37.600
+37.230.154.218 | Triangulated(Success(42.661785458953425)) | 40.315
+101.200.203.73 | Triangulated(Success(191.01612040937235)) | 160.340
+196.34.92.59 | Triangulated(Success(175.86359188186356)) | 171.469
+216.52.143.88 | Triangulated(Success(102.06427403948527)) | 97.940
+45.63.41.254 | Triangulated(Success(11.754659869259038)) | 1.474
+95.154.113.7 | Triangulated(Success(169.94910257970184)) | 170.009
+190.54.29.189 | Triangulated(Success(219.15145313649288)) | 234.159
+50.116.59.93 | Triangulated(Success(85.6112591131126)) | 75.765
+23.110.51.13 | Triangulated(Success(158.5692570956812)) | 154.507
+Command 'ping -4 -c4 217.42.164.118' returned non-zero exit status 1
+217.42.164.118 | Triangulated(Failure(java.lang.RuntimeException: Nonzero exit value: 1)) | error
+164.132.164.200 | Triangulated(Success(14.499490260142023)) | 9.234
+46.165.217.2 | Triangulated(Success(18.269356186989423)) | 12.709
+195.178.115.42 | Triangulated(Success(40.560421414219576)) | 29.872
+74.91.124.169 | Triangulated(Success(102.14368672733819)) | 97.755
+104.192.227.170 | Triangulated(Success(103.22836549685292)) | 100.599
+185.53.128.47 | Triangulated(Success(13.827984354314719)) | 2.710
+104.238.176.249 | Triangulated(Success(13.14370729057921)) | 15.259
+31.132.7.146 | Triangulated(Success(8.113503852436843)) | 12.603
+79.136.72.142 | Triangulated(Success(37.171027467826484)) | 33.376
+104.128.59.121 | Triangulated(Success(102.4610827535051)) | 99.276
+31.24.224.155 | Triangulated(Success(11.990088618821344)) | 7.393
+Command 'ping -4 -c4 217.42.164.118' returned non-zero exit status 1
+217.42.164.118 | Triangulated(Failure(java.lang.RuntimeException: Nonzero exit value: 1)) | error
+Command 'ping -4 -c4 81.167.121.154' returned non-zero exit status 1
+81.167.121.154 | Triangulated(Failure(java.lang.RuntimeException: Nonzero exit value: 1)) | error
+Command 'ping -4 -c4 77.242.97.106' returned non-zero exit status 1
+77.242.97.106 | Triangulated(Failure(java.lang.RuntimeException: Nonzero exit value: 1)) | error
+63.142.255.102 | Triangulated(Success(116.37332501533939)) | 121.996
+5.45.78.5 | Triangulated(Success(20.53366845391893)) | 2.502
+85.10.201.6 | Triangulated(Success(20.063154279407716)) | 10.735
+5.140.158.113 | Triangulated(Success(107.82835021573811)) | 94.375
+76.74.199.84 | Triangulated(Success(118.93946216332215)) | 117.111
+188.226.186.88 | Triangulated(Success(27.269009991832338)) | 4.952
+80.244.33.15 | Triangulated(Success(79.81330713609424)) | 67.843
+198.101.15.102 | Triangulated(Success(136.1964040117091)) | 108.449
+5.230.142.77 | Triangulated(Success(23.166700002986815)) | 7.738
+178.162.221.179 | Triangulated(Success(22.157044361649564)) | 12.929
+84.200.38.142 | Triangulated(Success(25.149722054483462)) | 9.179
+Command 'ping -4 -c4 90.226.191.206' returned non-zero exit status 1
+90.226.191.206 | Triangulated(Failure(java.lang.RuntimeException: Nonzero exit value: 1)) | error
+84.200.38.147 | Triangulated(Success(23.22840840263228)) | 7.464
+79.133.37.82 | Triangulated(Success(24.425903955517544)) | 8.600
+103.231.252.42 | Triangulated(Success(264.12179271963305)) | 315.148
+104.207.146.74 | Triangulated(Success(119.42953504169418)) | 110.150
+198.255.68.106 | Triangulated(Success(149.87268728840425)) | 158.765
+101.200.203.73 | Triangulated(Success(205.15589567813802)) | 175.930
+45.63.77.118 | Triangulated(Success(96.62696322234956)) | 99.723
+138.197.146.176 | Triangulated(Success(93.71338543913711)) | 90.803
+46.101.99.201 | Triangulated(Success(26.272530957740926)) | 12.593
+84.52.103.235 | Triangulated(Success(47.23912769896115)) | 37.294
+95.154.113.7 | Triangulated(Success(173.94519369175367)) | 169.005
+160.16.110.95 | Triangulated(Success(235.86713252645973)) | 264.727
+198.211.124.165 | Triangulated(Success(21.640654925947484)) | 1.227
+188.227.19.98 | Triangulated(Success(42.447432753269474)) | 33.341
+91.121.181.227 | Triangulated(Success(15.498580029128801)) | 9.521
+45.79.189.87 | Triangulated(Success(77.49188957134857)) | 78.810
+23.88.103.176 | Triangulated(Success(111.00531442449424)) | 109.635
+107.191.49.94 | Triangulated(Success(100.93370147185787)) | 103.388
+5.45.78.5 | Triangulated(Success(19.78771306019711)) | 2.735
+37.230.154.218 | Triangulated(Success(44.989667212555936)) | 40.457
+103.25.58.139 | Triangulated(Success(297.144133583264)) | 311.860
+91.237.220.130 | Triangulated(Success(137.1318921856561)) | 121.122
+196.34.15.23 | Triangulated(Success(149.46738160591934)) | 172.730
+46.189.163.197 | Triangulated(Success(47.81331835263983)) | 47.640
+5.45.78.5 | Triangulated(Success(18.46474937912867)) | 2.518
+37.230.154.218 | Triangulated(Success(55.27362189776707)) | 40.233
+37.230.154.218 | Triangulated(Success(56.39072262186792)) | 40.538
+84.200.93.156 | Triangulated(Success(20.966559320430132)) | 10.972
+212.63.208.203 | Triangulated(Success(37.49065755924604)) | 22.722
+157.7.242.240 | Triangulated(Success(222.46114255948876)) | 270.038
+45.76.92.77 | Triangulated(Success(22.67756695148909)) | 15.595
+62.64.11.132 | Triangulated(Success(61.31993806837598)) | 45.566
+89.34.97.14 | Triangulated(Success(13.366731213530075)) | 7.016
+52.232.113.33 | Triangulated(Success(18.48042873588292)) | 3.654
+195.178.115.42 | Triangulated(Success(48.78563867856779)) | 29.867
+91.196.253.65 | Triangulated(Success(48.70797362916713)) | 37.919
+91.230.211.52 | Triangulated(Success(126.54484005242624)) | 121.235
+51.254.209.88 | Triangulated(Success(14.022236784200699)) | 7.997
+84.200.93.157 | Triangulated(Success(23.900324843953687)) | 7.705
+197.255.148.13 | Triangulated(Success(143.93113634409508)) | 147.188
+66.85.80.122 | Triangulated(Success(98.87407122508094)) | 96.904
+180.149.228.18 | Triangulated(Success(297.70365076558477)) | 311.890
+37.230.154.218 | Triangulated(Success(44.15811187197494)) | 40.774
+207.244.68.74 | Triangulated(Success(92.976002612795)) | 89.427
+^P^P23.227.167.43 | Triangulated(Success(114.58383888618792)) | 116.975
+Command 'ping -4 -c4 5.9.94.145' returned non-zero exit status 1
+5.9.94.145 | Triangulated(Failure(java.lang.RuntimeException: Nonzero exit value: 1)) | error
+190.210.216.5 | Triangulated(Success(226.0330806874723)) | 226.684
+173.244.222.198 | Triangulated(Success(76.10171455554325)) | 86.517
+178.79.132.58 | Triangulated(Success(12.282956113622133)) | 7.402
+Command 'ping -4 -c4 37.59.51.127' returned non-zero exit status 1
+37.59.51.127 | Triangulated(Failure(java.lang.RuntimeException: Nonzero exit value: 1)) | error
+Command 'ping -4 -c4 178.132.76.38' returned non-zero exit status 1
+178.132.76.38 | Triangulated(Failure(java.lang.RuntimeException: Nonzero exit value: 1)) | error
+91.196.253.65 | Triangulated(Success(47.832918429275196)) | 37.955
+62.64.11.132 | Triangulated(Success(61.44311243653553)) | 45.808
+103.231.252.42 | Triangulated(Success(265.477205139149)) | 315.140
+72.5.102.68 | Triangulated(Success(123.61591372222495)) | 124.410
+188.227.19.98 | Triangulated(Success(42.88963674718462)) | 32.696
+^CTraceback (most recent call last):
+  File "triping_test.py", line 36, in <module>
+    main()
+  File "triping_test.py", line 33, in main
+    ping_ips(ips)
+  File "triping_test.py", line 29, in ping_ips
+    test_ip(ip)
+  File "triping_test.py", line 16, in test_ip
+    r = subprocess.check_output("ping -4 -c4 %s" % ip, shell=True)
+  File "/usr/lib/python2.7/subprocess.py", line 213, in check_output
+    output, unused_err = process.communicate()
+  File "/usr/lib/python2.7/subprocess.py", line 471, in communicate
+    stdout = _eintr_retry_call(self.stdout.read)
+  File "/usr/lib/python2.7/subprocess.py", line 121, in _eintr_retry_call
+    return func(*args)
+KeyboardInterrupt
+]0;root@q3mm: ~/tripingroot@q3mm:~/triping# exit
+
+Script done on Thu 20 Apr 2017 02:40:26 PM UTC
